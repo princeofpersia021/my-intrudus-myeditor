@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+
+    background:linear-gradient(
+        135deg,
+        #080808,
+        #350000,
+        #080808
+    );
+    color:whitesmoke
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    background-color: white;
+    border-bottom: 1px solid #500000;
+}
+.logo{
+    color: #ff3030;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+}
+.menu a{
+    color: red;
+    text-decoration:none;
+    font-size: 23px;
+    transition: 0.5s;
+}
+.menu a:hover{
+    color: black;
+}
+.hero{
+    text-align: center;
+    padding: 5px 20px;
+}
+.hero h1{
+    font-size: 70px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-shadow: 0 0 30px #ff0000;
+}
+.P1{
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    margin: 25px auto;
+     text-shadow: 0 0 10px whitesmoke;
+}
+.main-button{
+    display: inline-block;
+    background: #b90000;
+    color: whitesmoke;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+.main-button:hover{
+    background: black;
+    color: whitesmoke;
+    transform: scale(1.05);
+}
+.P2{
+     color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    margin: 25px auto;
+     text-shadow: 0 0 10px whitesmoke;
+}
+.P3{
+     color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    margin: 25px auto;
+    text-shadow: 0 0 10px whitesmoke;
+}
